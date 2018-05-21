@@ -174,7 +174,8 @@
             this.scoreCardPanel.Controls.Add(this.computer12, 2, 15);
             this.scoreCardPanel.Controls.Add(this.label42, 0, 8);
             this.scoreCardPanel.Controls.Add(this.label43, 0, 15);
-            this.scoreCardPanel.Location = new System.Drawing.Point(479, 31);
+            this.scoreCardPanel.Location = new System.Drawing.Point(639, 38);
+            this.scoreCardPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.scoreCardPanel.Name = "scoreCardPanel";
             this.scoreCardPanel.RowCount = 17;
             this.scoreCardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
@@ -194,16 +195,17 @@
             this.scoreCardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
             this.scoreCardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
             this.scoreCardPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.882353F));
-            this.scoreCardPanel.Size = new System.Drawing.Size(394, 470);
+            this.scoreCardPanel.Size = new System.Drawing.Size(525, 578);
             this.scoreCardPanel.TabIndex = 0;
             // 
             // label50
             // 
             this.label50.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.ForeColor = System.Drawing.Color.Red;
-            this.label50.Location = new System.Drawing.Point(6, 435);
+            this.label50.Location = new System.Drawing.Point(7, 531);
+            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(123, 23);
+            this.label50.Size = new System.Drawing.Size(164, 28);
             this.label50.TabIndex = 42;
             this.label50.Text = "Total Score";
             // 
@@ -212,9 +214,10 @@
             this.computerTotalScore.BackColor = System.Drawing.Color.White;
             this.computerTotalScore.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.computerTotalScore.ForeColor = System.Drawing.Color.Red;
-            this.computerTotalScore.Location = new System.Drawing.Point(278, 435);
+            this.computerTotalScore.Location = new System.Drawing.Point(371, 531);
+            this.computerTotalScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computerTotalScore.Name = "computerTotalScore";
-            this.computerTotalScore.Size = new System.Drawing.Size(110, 23);
+            this.computerTotalScore.Size = new System.Drawing.Size(147, 28);
             this.computerTotalScore.TabIndex = 24;
             this.computerTotalScore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -223,63 +226,70 @@
             this.userTotalScore.BackColor = System.Drawing.Color.White;
             this.userTotalScore.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userTotalScore.ForeColor = System.Drawing.Color.Red;
-            this.userTotalScore.Location = new System.Drawing.Point(161, 435);
+            this.userTotalScore.Location = new System.Drawing.Point(215, 531);
+            this.userTotalScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.userTotalScore.Name = "userTotalScore";
-            this.userTotalScore.Size = new System.Drawing.Size(108, 23);
+            this.userTotalScore.Size = new System.Drawing.Size(144, 28);
             this.userTotalScore.TabIndex = 25;
             this.userTotalScore.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label49
             // 
             this.label49.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(6, 381);
+            this.label49.Location = new System.Drawing.Point(7, 465);
+            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(91, 23);
+            this.label49.Size = new System.Drawing.Size(121, 28);
             this.label49.TabIndex = 47;
             this.label49.Text = "Chance";
             // 
             // label48
             // 
             this.label48.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(6, 354);
+            this.label48.Location = new System.Drawing.Point(7, 432);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(146, 23);
+            this.label48.Size = new System.Drawing.Size(195, 28);
             this.label48.TabIndex = 46;
             this.label48.Text = "Large Straight";
             // 
             // label47
             // 
             this.label47.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(6, 327);
+            this.label47.Location = new System.Drawing.Point(7, 399);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(146, 23);
+            this.label47.Size = new System.Drawing.Size(195, 28);
             this.label47.TabIndex = 45;
             this.label47.Text = "Small Straight";
             // 
             // label46
             // 
             this.label46.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(6, 300);
+            this.label46.Location = new System.Drawing.Point(7, 366);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(123, 23);
+            this.label46.Size = new System.Drawing.Size(164, 28);
             this.label46.TabIndex = 44;
             this.label46.Text = "Full House";
             // 
             // label45
             // 
             this.label45.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(6, 273);
+            this.label45.Location = new System.Drawing.Point(7, 333);
+            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(146, 23);
+            this.label45.Size = new System.Drawing.Size(195, 28);
             this.label45.TabIndex = 43;
             this.label45.Text = "Four of a Kind";
             // 
             // label44
             // 
             this.label44.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(6, 246);
+            this.label44.Location = new System.Drawing.Point(7, 300);
+            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(146, 23);
+            this.label44.Size = new System.Drawing.Size(195, 28);
             this.label44.TabIndex = 42;
             this.label44.Text = "Three of a Kind";
             // 
@@ -287,9 +297,10 @@
             // 
             this.label41.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.Color.Red;
-            this.label41.Location = new System.Drawing.Point(6, 192);
+            this.label41.Location = new System.Drawing.Point(7, 234);
+            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(91, 23);
+            this.label41.Size = new System.Drawing.Size(121, 28);
             this.label41.TabIndex = 26;
             this.label41.Text = "Sum";
             // 
@@ -297,9 +308,10 @@
             // 
             this.computer9.BackColor = System.Drawing.Color.White;
             this.computer9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer9.Location = new System.Drawing.Point(278, 327);
+            this.computer9.Location = new System.Drawing.Point(371, 399);
+            this.computer9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer9.Name = "computer9";
-            this.computer9.Size = new System.Drawing.Size(110, 23);
+            this.computer9.Size = new System.Drawing.Size(147, 28);
             this.computer9.TabIndex = 38;
             this.computer9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -307,9 +319,10 @@
             // 
             this.user9.BackColor = System.Drawing.Color.White;
             this.user9.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user9.Location = new System.Drawing.Point(161, 327);
+            this.user9.Location = new System.Drawing.Point(215, 399);
+            this.user9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user9.Name = "user9";
-            this.user9.Size = new System.Drawing.Size(108, 23);
+            this.user9.Size = new System.Drawing.Size(144, 28);
             this.user9.TabIndex = 37;
             this.user9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user9.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -318,9 +331,10 @@
             // 
             this.computer8.BackColor = System.Drawing.Color.White;
             this.computer8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer8.Location = new System.Drawing.Point(278, 300);
+            this.computer8.Location = new System.Drawing.Point(371, 366);
+            this.computer8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer8.Name = "computer8";
-            this.computer8.Size = new System.Drawing.Size(110, 23);
+            this.computer8.Size = new System.Drawing.Size(147, 28);
             this.computer8.TabIndex = 35;
             this.computer8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -328,9 +342,10 @@
             // 
             this.user8.BackColor = System.Drawing.Color.White;
             this.user8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user8.Location = new System.Drawing.Point(161, 300);
+            this.user8.Location = new System.Drawing.Point(215, 366);
+            this.user8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user8.Name = "user8";
-            this.user8.Size = new System.Drawing.Size(108, 23);
+            this.user8.Size = new System.Drawing.Size(144, 28);
             this.user8.TabIndex = 34;
             this.user8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user8.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -339,9 +354,10 @@
             // 
             this.computer7.BackColor = System.Drawing.Color.White;
             this.computer7.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer7.Location = new System.Drawing.Point(278, 273);
+            this.computer7.Location = new System.Drawing.Point(371, 333);
+            this.computer7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer7.Name = "computer7";
-            this.computer7.Size = new System.Drawing.Size(110, 23);
+            this.computer7.Size = new System.Drawing.Size(147, 28);
             this.computer7.TabIndex = 32;
             this.computer7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -349,9 +365,10 @@
             // 
             this.user7.BackColor = System.Drawing.Color.White;
             this.user7.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user7.Location = new System.Drawing.Point(161, 273);
+            this.user7.Location = new System.Drawing.Point(215, 333);
+            this.user7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user7.Name = "user7";
-            this.user7.Size = new System.Drawing.Size(108, 23);
+            this.user7.Size = new System.Drawing.Size(144, 28);
             this.user7.TabIndex = 31;
             this.user7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user7.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -360,9 +377,10 @@
             // 
             this.computer6.BackColor = System.Drawing.Color.White;
             this.computer6.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer6.Location = new System.Drawing.Point(278, 246);
+            this.computer6.Location = new System.Drawing.Point(371, 300);
+            this.computer6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer6.Name = "computer6";
-            this.computer6.Size = new System.Drawing.Size(110, 23);
+            this.computer6.Size = new System.Drawing.Size(147, 28);
             this.computer6.TabIndex = 29;
             this.computer6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -370,9 +388,10 @@
             // 
             this.user6.BackColor = System.Drawing.Color.White;
             this.user6.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user6.Location = new System.Drawing.Point(161, 246);
+            this.user6.Location = new System.Drawing.Point(215, 300);
+            this.user6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user6.Name = "user6";
-            this.user6.Size = new System.Drawing.Size(108, 23);
+            this.user6.Size = new System.Drawing.Size(144, 28);
             this.user6.TabIndex = 28;
             this.user6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user6.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -382,9 +401,10 @@
             this.computerSum.BackColor = System.Drawing.Color.White;
             this.computerSum.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.computerSum.ForeColor = System.Drawing.Color.Red;
-            this.computerSum.Location = new System.Drawing.Point(278, 192);
+            this.computerSum.Location = new System.Drawing.Point(371, 234);
+            this.computerSum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computerSum.Name = "computerSum";
-            this.computerSum.Size = new System.Drawing.Size(110, 23);
+            this.computerSum.Size = new System.Drawing.Size(147, 28);
             this.computerSum.TabIndex = 23;
             this.computerSum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -392,9 +412,10 @@
             // 
             this.computer5.BackColor = System.Drawing.Color.White;
             this.computer5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer5.Location = new System.Drawing.Point(278, 165);
+            this.computer5.Location = new System.Drawing.Point(371, 201);
+            this.computer5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer5.Name = "computer5";
-            this.computer5.Size = new System.Drawing.Size(110, 23);
+            this.computer5.Size = new System.Drawing.Size(147, 28);
             this.computer5.TabIndex = 20;
             this.computer5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -402,9 +423,10 @@
             // 
             this.user5.BackColor = System.Drawing.Color.White;
             this.user5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user5.Location = new System.Drawing.Point(161, 165);
+            this.user5.Location = new System.Drawing.Point(215, 201);
+            this.user5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user5.Name = "user5";
-            this.user5.Size = new System.Drawing.Size(108, 23);
+            this.user5.Size = new System.Drawing.Size(144, 28);
             this.user5.TabIndex = 19;
             this.user5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user5.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -413,9 +435,10 @@
             // 
             this.computer4.BackColor = System.Drawing.Color.White;
             this.computer4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer4.Location = new System.Drawing.Point(278, 138);
+            this.computer4.Location = new System.Drawing.Point(371, 168);
+            this.computer4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer4.Name = "computer4";
-            this.computer4.Size = new System.Drawing.Size(110, 23);
+            this.computer4.Size = new System.Drawing.Size(147, 28);
             this.computer4.TabIndex = 18;
             this.computer4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -423,9 +446,10 @@
             // 
             this.user4.BackColor = System.Drawing.Color.White;
             this.user4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user4.Location = new System.Drawing.Point(161, 138);
+            this.user4.Location = new System.Drawing.Point(215, 168);
+            this.user4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user4.Name = "user4";
-            this.user4.Size = new System.Drawing.Size(108, 23);
+            this.user4.Size = new System.Drawing.Size(144, 28);
             this.user4.TabIndex = 17;
             this.user4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user4.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -434,9 +458,10 @@
             // 
             this.computer3.BackColor = System.Drawing.Color.White;
             this.computer3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer3.Location = new System.Drawing.Point(278, 111);
+            this.computer3.Location = new System.Drawing.Point(371, 135);
+            this.computer3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer3.Name = "computer3";
-            this.computer3.Size = new System.Drawing.Size(110, 23);
+            this.computer3.Size = new System.Drawing.Size(147, 28);
             this.computer3.TabIndex = 16;
             this.computer3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -444,9 +469,10 @@
             // 
             this.user3.BackColor = System.Drawing.Color.White;
             this.user3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user3.Location = new System.Drawing.Point(161, 111);
+            this.user3.Location = new System.Drawing.Point(215, 135);
+            this.user3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user3.Name = "user3";
-            this.user3.Size = new System.Drawing.Size(108, 23);
+            this.user3.Size = new System.Drawing.Size(144, 28);
             this.user3.TabIndex = 15;
             this.user3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user3.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -455,9 +481,10 @@
             // 
             this.computer2.BackColor = System.Drawing.Color.White;
             this.computer2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer2.Location = new System.Drawing.Point(278, 84);
+            this.computer2.Location = new System.Drawing.Point(371, 102);
+            this.computer2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer2.Name = "computer2";
-            this.computer2.Size = new System.Drawing.Size(110, 23);
+            this.computer2.Size = new System.Drawing.Size(147, 28);
             this.computer2.TabIndex = 14;
             this.computer2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -465,9 +492,10 @@
             // 
             this.user2.BackColor = System.Drawing.Color.White;
             this.user2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user2.Location = new System.Drawing.Point(161, 84);
+            this.user2.Location = new System.Drawing.Point(215, 102);
+            this.user2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user2.Name = "user2";
-            this.user2.Size = new System.Drawing.Size(108, 23);
+            this.user2.Size = new System.Drawing.Size(144, 28);
             this.user2.TabIndex = 13;
             this.user2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user2.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -476,9 +504,10 @@
             // 
             this.computer1.BackColor = System.Drawing.Color.White;
             this.computer1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer1.Location = new System.Drawing.Point(278, 57);
+            this.computer1.Location = new System.Drawing.Point(371, 69);
+            this.computer1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer1.Name = "computer1";
-            this.computer1.Size = new System.Drawing.Size(110, 23);
+            this.computer1.Size = new System.Drawing.Size(147, 28);
             this.computer1.TabIndex = 12;
             this.computer1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -486,9 +515,10 @@
             // 
             this.user1.BackColor = System.Drawing.Color.White;
             this.user1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user1.Location = new System.Drawing.Point(161, 57);
+            this.user1.Location = new System.Drawing.Point(215, 69);
+            this.user1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user1.Name = "user1";
-            this.user1.Size = new System.Drawing.Size(108, 23);
+            this.user1.Size = new System.Drawing.Size(144, 28);
             this.user1.TabIndex = 11;
             this.user1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user1.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -497,9 +527,10 @@
             // 
             this.computer0.BackColor = System.Drawing.Color.White;
             this.computer0.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer0.Location = new System.Drawing.Point(278, 30);
+            this.computer0.Location = new System.Drawing.Point(371, 36);
+            this.computer0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer0.Name = "computer0";
-            this.computer0.Size = new System.Drawing.Size(110, 23);
+            this.computer0.Size = new System.Drawing.Size(147, 28);
             this.computer0.TabIndex = 8;
             this.computer0.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -507,9 +538,10 @@
             // 
             this.user0.BackColor = System.Drawing.Color.White;
             this.user0.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user0.Location = new System.Drawing.Point(161, 30);
+            this.user0.Location = new System.Drawing.Point(215, 36);
+            this.user0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user0.Name = "user0";
-            this.user0.Size = new System.Drawing.Size(108, 23);
+            this.user0.Size = new System.Drawing.Size(144, 28);
             this.user0.TabIndex = 9;
             this.user0.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user0.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -518,9 +550,10 @@
             // 
             this.label5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(278, 3);
+            this.label5.Location = new System.Drawing.Point(371, 3);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 23);
+            this.label5.Size = new System.Drawing.Size(124, 28);
             this.label5.TabIndex = 5;
             this.label5.Text = "Computer";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -528,9 +561,10 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 111);
+            this.label3.Location = new System.Drawing.Point(7, 135);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 23);
+            this.label3.Size = new System.Drawing.Size(121, 28);
             this.label3.TabIndex = 3;
             this.label3.Text = "Fours";
             // 
@@ -538,9 +572,10 @@
             // 
             this.label4.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(161, 3);
+            this.label4.Location = new System.Drawing.Point(215, 3);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 23);
+            this.label4.Size = new System.Drawing.Size(121, 28);
             this.label4.TabIndex = 4;
             this.label4.Text = "You";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -548,45 +583,50 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 165);
+            this.label7.Location = new System.Drawing.Point(7, 201);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 23);
+            this.label7.Size = new System.Drawing.Size(121, 28);
             this.label7.TabIndex = 7;
             this.label7.Text = "Sixes";
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 30);
+            this.label8.Location = new System.Drawing.Point(7, 36);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 23);
+            this.label8.Size = new System.Drawing.Size(121, 28);
             this.label8.TabIndex = 4;
             this.label8.Text = "Ones";
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 84);
+            this.label1.Location = new System.Drawing.Point(7, 102);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 23);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Threes";
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 57);
+            this.label2.Location = new System.Drawing.Point(7, 69);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 23);
+            this.label2.Size = new System.Drawing.Size(121, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "Twos";
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 138);
+            this.label6.Location = new System.Drawing.Point(7, 168);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 23);
+            this.label6.Size = new System.Drawing.Size(121, 28);
             this.label6.TabIndex = 6;
             this.label6.Text = "Fives";
             // 
@@ -595,9 +635,10 @@
             this.userSum.BackColor = System.Drawing.Color.White;
             this.userSum.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userSum.ForeColor = System.Drawing.Color.Red;
-            this.userSum.Location = new System.Drawing.Point(161, 192);
+            this.userSum.Location = new System.Drawing.Point(215, 234);
+            this.userSum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.userSum.Name = "userSum";
-            this.userSum.Size = new System.Drawing.Size(108, 23);
+            this.userSum.Size = new System.Drawing.Size(144, 28);
             this.userSum.TabIndex = 10;
             this.userSum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -606,9 +647,10 @@
             this.userBonus.BackColor = System.Drawing.Color.White;
             this.userBonus.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userBonus.ForeColor = System.Drawing.Color.Red;
-            this.userBonus.Location = new System.Drawing.Point(161, 219);
+            this.userBonus.Location = new System.Drawing.Point(215, 267);
+            this.userBonus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.userBonus.Name = "userBonus";
-            this.userBonus.Size = new System.Drawing.Size(108, 23);
+            this.userBonus.Size = new System.Drawing.Size(144, 28);
             this.userBonus.TabIndex = 22;
             this.userBonus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -617,9 +659,10 @@
             this.computerBonus.BackColor = System.Drawing.Color.White;
             this.computerBonus.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.computerBonus.ForeColor = System.Drawing.Color.Red;
-            this.computerBonus.Location = new System.Drawing.Point(278, 219);
+            this.computerBonus.Location = new System.Drawing.Point(371, 267);
+            this.computerBonus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computerBonus.Name = "computerBonus";
-            this.computerBonus.Size = new System.Drawing.Size(110, 23);
+            this.computerBonus.Size = new System.Drawing.Size(147, 28);
             this.computerBonus.TabIndex = 21;
             this.computerBonus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -627,9 +670,10 @@
             // 
             this.user10.BackColor = System.Drawing.Color.White;
             this.user10.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user10.Location = new System.Drawing.Point(161, 354);
+            this.user10.Location = new System.Drawing.Point(215, 432);
+            this.user10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user10.Name = "user10";
-            this.user10.Size = new System.Drawing.Size(108, 23);
+            this.user10.Size = new System.Drawing.Size(144, 28);
             this.user10.TabIndex = 39;
             this.user10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user10.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -638,9 +682,10 @@
             // 
             this.computer10.BackColor = System.Drawing.Color.White;
             this.computer10.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer10.Location = new System.Drawing.Point(278, 354);
+            this.computer10.Location = new System.Drawing.Point(371, 432);
+            this.computer10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer10.Name = "computer10";
-            this.computer10.Size = new System.Drawing.Size(110, 23);
+            this.computer10.Size = new System.Drawing.Size(147, 28);
             this.computer10.TabIndex = 36;
             this.computer10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -648,9 +693,10 @@
             // 
             this.user11.BackColor = System.Drawing.Color.White;
             this.user11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user11.Location = new System.Drawing.Point(161, 381);
+            this.user11.Location = new System.Drawing.Point(215, 465);
+            this.user11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user11.Name = "user11";
-            this.user11.Size = new System.Drawing.Size(108, 23);
+            this.user11.Size = new System.Drawing.Size(144, 28);
             this.user11.TabIndex = 33;
             this.user11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user11.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -659,9 +705,10 @@
             // 
             this.computer11.BackColor = System.Drawing.Color.White;
             this.computer11.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer11.Location = new System.Drawing.Point(278, 381);
+            this.computer11.Location = new System.Drawing.Point(371, 465);
+            this.computer11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer11.Name = "computer11";
-            this.computer11.Size = new System.Drawing.Size(110, 23);
+            this.computer11.Size = new System.Drawing.Size(147, 28);
             this.computer11.TabIndex = 30;
             this.computer11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -669,9 +716,10 @@
             // 
             this.user12.BackColor = System.Drawing.Color.White;
             this.user12.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user12.Location = new System.Drawing.Point(161, 408);
+            this.user12.Location = new System.Drawing.Point(215, 498);
+            this.user12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.user12.Name = "user12";
-            this.user12.Size = new System.Drawing.Size(108, 23);
+            this.user12.Size = new System.Drawing.Size(144, 28);
             this.user12.TabIndex = 27;
             this.user12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.user12.DoubleClick += new System.EventHandler(this.userScorecard_DoubleClick);
@@ -680,9 +728,10 @@
             // 
             this.computer12.BackColor = System.Drawing.Color.White;
             this.computer12.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.computer12.Location = new System.Drawing.Point(278, 408);
+            this.computer12.Location = new System.Drawing.Point(371, 498);
+            this.computer12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.computer12.Name = "computer12";
-            this.computer12.Size = new System.Drawing.Size(110, 23);
+            this.computer12.Size = new System.Drawing.Size(147, 28);
             this.computer12.TabIndex = 26;
             this.computer12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -690,18 +739,20 @@
             // 
             this.label42.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.Red;
-            this.label42.Location = new System.Drawing.Point(6, 219);
+            this.label42.Location = new System.Drawing.Point(7, 267);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(91, 23);
+            this.label42.Size = new System.Drawing.Size(121, 28);
             this.label42.TabIndex = 40;
             this.label42.Text = "Bonus";
             // 
             // label43
             // 
             this.label43.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(6, 408);
+            this.label43.Location = new System.Drawing.Point(7, 498);
+            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(91, 23);
+            this.label43.Size = new System.Drawing.Size(121, 28);
             this.label43.TabIndex = 41;
             this.label43.Text = "YAHTZEE";
             // 
@@ -710,9 +761,10 @@
             this.keep0.BackColor = System.Drawing.Color.Transparent;
             this.keep0.Image = ((System.Drawing.Image)(resources.GetObject("keep0.Image")));
             this.keep0.InitialImage = ((System.Drawing.Image)(resources.GetObject("keep0.InitialImage")));
-            this.keep0.Location = new System.Drawing.Point(46, 428);
+            this.keep0.Location = new System.Drawing.Point(61, 527);
+            this.keep0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keep0.Name = "keep0";
-            this.keep0.Size = new System.Drawing.Size(70, 64);
+            this.keep0.Size = new System.Drawing.Size(93, 79);
             this.keep0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.keep0.TabIndex = 1;
             this.keep0.TabStop = false;
@@ -723,9 +775,10 @@
             this.keep4.BackColor = System.Drawing.Color.Transparent;
             this.keep4.Image = ((System.Drawing.Image)(resources.GetObject("keep4.Image")));
             this.keep4.InitialImage = ((System.Drawing.Image)(resources.GetObject("keep4.InitialImage")));
-            this.keep4.Location = new System.Drawing.Point(350, 428);
+            this.keep4.Location = new System.Drawing.Point(467, 527);
+            this.keep4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keep4.Name = "keep4";
-            this.keep4.Size = new System.Drawing.Size(70, 64);
+            this.keep4.Size = new System.Drawing.Size(93, 79);
             this.keep4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.keep4.TabIndex = 2;
             this.keep4.TabStop = false;
@@ -736,9 +789,10 @@
             this.keep3.BackColor = System.Drawing.Color.Transparent;
             this.keep3.Image = ((System.Drawing.Image)(resources.GetObject("keep3.Image")));
             this.keep3.InitialImage = ((System.Drawing.Image)(resources.GetObject("keep3.InitialImage")));
-            this.keep3.Location = new System.Drawing.Point(274, 428);
+            this.keep3.Location = new System.Drawing.Point(365, 527);
+            this.keep3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keep3.Name = "keep3";
-            this.keep3.Size = new System.Drawing.Size(70, 64);
+            this.keep3.Size = new System.Drawing.Size(93, 79);
             this.keep3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.keep3.TabIndex = 3;
             this.keep3.TabStop = false;
@@ -749,9 +803,10 @@
             this.keep2.BackColor = System.Drawing.Color.Transparent;
             this.keep2.Image = ((System.Drawing.Image)(resources.GetObject("keep2.Image")));
             this.keep2.InitialImage = ((System.Drawing.Image)(resources.GetObject("keep2.InitialImage")));
-            this.keep2.Location = new System.Drawing.Point(198, 428);
+            this.keep2.Location = new System.Drawing.Point(264, 527);
+            this.keep2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keep2.Name = "keep2";
-            this.keep2.Size = new System.Drawing.Size(70, 64);
+            this.keep2.Size = new System.Drawing.Size(93, 79);
             this.keep2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.keep2.TabIndex = 4;
             this.keep2.TabStop = false;
@@ -762,9 +817,10 @@
             this.keep1.BackColor = System.Drawing.Color.Transparent;
             this.keep1.Image = ((System.Drawing.Image)(resources.GetObject("keep1.Image")));
             this.keep1.InitialImage = ((System.Drawing.Image)(resources.GetObject("keep1.InitialImage")));
-            this.keep1.Location = new System.Drawing.Point(122, 428);
+            this.keep1.Location = new System.Drawing.Point(163, 527);
+            this.keep1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.keep1.Name = "keep1";
-            this.keep1.Size = new System.Drawing.Size(70, 64);
+            this.keep1.Size = new System.Drawing.Size(93, 79);
             this.keep1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.keep1.TabIndex = 5;
             this.keep1.TabStop = false;
@@ -775,9 +831,10 @@
             this.roll1.BackColor = System.Drawing.Color.Transparent;
             this.roll1.Image = ((System.Drawing.Image)(resources.GetObject("roll1.Image")));
             this.roll1.InitialImage = ((System.Drawing.Image)(resources.GetObject("roll1.InitialImage")));
-            this.roll1.Location = new System.Drawing.Point(85, 171);
+            this.roll1.Location = new System.Drawing.Point(113, 210);
+            this.roll1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roll1.Name = "roll1";
-            this.roll1.Size = new System.Drawing.Size(70, 64);
+            this.roll1.Size = new System.Drawing.Size(93, 79);
             this.roll1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.roll1.TabIndex = 10;
             this.roll1.TabStop = false;
@@ -788,12 +845,14 @@
             this.roll2.BackColor = System.Drawing.Color.Transparent;
             this.roll2.Image = ((System.Drawing.Image)(resources.GetObject("roll2.Image")));
             this.roll2.InitialImage = ((System.Drawing.Image)(resources.GetObject("roll2.InitialImage")));
-            this.roll2.Location = new System.Drawing.Point(199, 239);
+            this.roll2.Location = new System.Drawing.Point(265, 294);
+            this.roll2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roll2.Name = "roll2";
-            this.roll2.Size = new System.Drawing.Size(70, 64);
+            this.roll2.Size = new System.Drawing.Size(93, 79);
             this.roll2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.roll2.TabIndex = 9;
             this.roll2.TabStop = false;
+            this.roll2.Click += new System.EventHandler(this.roll2_Click);
             this.roll2.DoubleClick += new System.EventHandler(this.roll_DoubleClick);
             // 
             // roll3
@@ -801,9 +860,10 @@
             this.roll3.BackColor = System.Drawing.Color.Transparent;
             this.roll3.Image = ((System.Drawing.Image)(resources.GetObject("roll3.Image")));
             this.roll3.InitialImage = ((System.Drawing.Image)(resources.GetObject("roll3.InitialImage")));
-            this.roll3.Location = new System.Drawing.Point(322, 279);
+            this.roll3.Location = new System.Drawing.Point(429, 343);
+            this.roll3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roll3.Name = "roll3";
-            this.roll3.Size = new System.Drawing.Size(70, 64);
+            this.roll3.Size = new System.Drawing.Size(93, 79);
             this.roll3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.roll3.TabIndex = 8;
             this.roll3.TabStop = false;
@@ -814,9 +874,10 @@
             this.roll4.BackColor = System.Drawing.Color.Transparent;
             this.roll4.Image = ((System.Drawing.Image)(resources.GetObject("roll4.Image")));
             this.roll4.InitialImage = ((System.Drawing.Image)(resources.GetObject("roll4.InitialImage")));
-            this.roll4.Location = new System.Drawing.Point(382, 171);
+            this.roll4.Location = new System.Drawing.Point(509, 210);
+            this.roll4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roll4.Name = "roll4";
-            this.roll4.Size = new System.Drawing.Size(70, 64);
+            this.roll4.Size = new System.Drawing.Size(93, 79);
             this.roll4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.roll4.TabIndex = 7;
             this.roll4.TabStop = false;
@@ -827,9 +888,10 @@
             this.roll0.BackColor = System.Drawing.Color.Transparent;
             this.roll0.Image = ((System.Drawing.Image)(resources.GetObject("roll0.Image")));
             this.roll0.InitialImage = null;
-            this.roll0.Location = new System.Drawing.Point(30, 279);
+            this.roll0.Location = new System.Drawing.Point(40, 343);
+            this.roll0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.roll0.Name = "roll0";
-            this.roll0.Size = new System.Drawing.Size(70, 64);
+            this.roll0.Size = new System.Drawing.Size(93, 79);
             this.roll0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.roll0.TabIndex = 6;
             this.roll0.TabStop = false;
@@ -838,9 +900,10 @@
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(199, 373);
+            this.label9.Location = new System.Drawing.Point(265, 459);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 40);
+            this.label9.Size = new System.Drawing.Size(93, 49);
             this.label9.TabIndex = 48;
             this.label9.Text = "You";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -848,9 +911,10 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(159, 118);
+            this.label10.Location = new System.Drawing.Point(212, 145);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(152, 40);
+            this.label10.Size = new System.Drawing.Size(203, 49);
             this.label10.TabIndex = 49;
             this.label10.Text = "Computer";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -858,9 +922,10 @@
             // rollButton
             // 
             this.rollButton.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rollButton.Location = new System.Drawing.Point(165, 507);
+            this.rollButton.Location = new System.Drawing.Point(220, 624);
+            this.rollButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rollButton.Name = "rollButton";
-            this.rollButton.Size = new System.Drawing.Size(132, 42);
+            this.rollButton.Size = new System.Drawing.Size(176, 52);
             this.rollButton.TabIndex = 50;
             this.rollButton.Text = "Roll";
             this.rollButton.UseVisualStyleBackColor = true;
@@ -871,9 +936,10 @@
             this.computerKeep1.BackColor = System.Drawing.Color.Transparent;
             this.computerKeep1.Image = ((System.Drawing.Image)(resources.GetObject("computerKeep1.Image")));
             this.computerKeep1.InitialImage = ((System.Drawing.Image)(resources.GetObject("computerKeep1.InitialImage")));
-            this.computerKeep1.Location = new System.Drawing.Point(122, 47);
+            this.computerKeep1.Location = new System.Drawing.Point(163, 58);
+            this.computerKeep1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.computerKeep1.Name = "computerKeep1";
-            this.computerKeep1.Size = new System.Drawing.Size(70, 64);
+            this.computerKeep1.Size = new System.Drawing.Size(93, 79);
             this.computerKeep1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.computerKeep1.TabIndex = 55;
             this.computerKeep1.TabStop = false;
@@ -883,9 +949,10 @@
             this.computerKeep2.BackColor = System.Drawing.Color.Transparent;
             this.computerKeep2.Image = ((System.Drawing.Image)(resources.GetObject("computerKeep2.Image")));
             this.computerKeep2.InitialImage = ((System.Drawing.Image)(resources.GetObject("computerKeep2.InitialImage")));
-            this.computerKeep2.Location = new System.Drawing.Point(198, 47);
+            this.computerKeep2.Location = new System.Drawing.Point(264, 58);
+            this.computerKeep2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.computerKeep2.Name = "computerKeep2";
-            this.computerKeep2.Size = new System.Drawing.Size(70, 64);
+            this.computerKeep2.Size = new System.Drawing.Size(93, 79);
             this.computerKeep2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.computerKeep2.TabIndex = 54;
             this.computerKeep2.TabStop = false;
@@ -895,9 +962,10 @@
             this.computerKeep3.BackColor = System.Drawing.Color.Transparent;
             this.computerKeep3.Image = ((System.Drawing.Image)(resources.GetObject("computerKeep3.Image")));
             this.computerKeep3.InitialImage = ((System.Drawing.Image)(resources.GetObject("computerKeep3.InitialImage")));
-            this.computerKeep3.Location = new System.Drawing.Point(274, 47);
+            this.computerKeep3.Location = new System.Drawing.Point(365, 58);
+            this.computerKeep3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.computerKeep3.Name = "computerKeep3";
-            this.computerKeep3.Size = new System.Drawing.Size(70, 64);
+            this.computerKeep3.Size = new System.Drawing.Size(93, 79);
             this.computerKeep3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.computerKeep3.TabIndex = 53;
             this.computerKeep3.TabStop = false;
@@ -907,9 +975,10 @@
             this.computerKeep4.BackColor = System.Drawing.Color.Transparent;
             this.computerKeep4.Image = ((System.Drawing.Image)(resources.GetObject("computerKeep4.Image")));
             this.computerKeep4.InitialImage = ((System.Drawing.Image)(resources.GetObject("computerKeep4.InitialImage")));
-            this.computerKeep4.Location = new System.Drawing.Point(350, 47);
+            this.computerKeep4.Location = new System.Drawing.Point(467, 58);
+            this.computerKeep4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.computerKeep4.Name = "computerKeep4";
-            this.computerKeep4.Size = new System.Drawing.Size(70, 64);
+            this.computerKeep4.Size = new System.Drawing.Size(93, 79);
             this.computerKeep4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.computerKeep4.TabIndex = 52;
             this.computerKeep4.TabStop = false;
@@ -919,9 +988,10 @@
             this.computerKeep0.BackColor = System.Drawing.Color.Transparent;
             this.computerKeep0.Image = ((System.Drawing.Image)(resources.GetObject("computerKeep0.Image")));
             this.computerKeep0.InitialImage = ((System.Drawing.Image)(resources.GetObject("computerKeep0.InitialImage")));
-            this.computerKeep0.Location = new System.Drawing.Point(46, 47);
+            this.computerKeep0.Location = new System.Drawing.Point(61, 58);
+            this.computerKeep0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.computerKeep0.Name = "computerKeep0";
-            this.computerKeep0.Size = new System.Drawing.Size(70, 64);
+            this.computerKeep0.Size = new System.Drawing.Size(93, 79);
             this.computerKeep0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.computerKeep0.TabIndex = 51;
             this.computerKeep0.TabStop = false;
@@ -930,9 +1000,10 @@
             // 
             this.newGameButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.newGameButton.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newGameButton.Location = new System.Drawing.Point(479, 507);
+            this.newGameButton.Location = new System.Drawing.Point(639, 624);
+            this.newGameButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newGameButton.Name = "newGameButton";
-            this.newGameButton.Size = new System.Drawing.Size(394, 42);
+            this.newGameButton.Size = new System.Drawing.Size(525, 52);
             this.newGameButton.TabIndex = 56;
             this.newGameButton.Text = "New Game";
             this.newGameButton.UseVisualStyleBackColor = true;
@@ -941,11 +1012,11 @@
             // yahtzeeForm
             // 
             this.AcceptButton = this.rollButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.CancelButton = this.newGameButton;
-            this.ClientSize = new System.Drawing.Size(925, 595);
+            this.ClientSize = new System.Drawing.Size(1233, 732);
             this.Controls.Add(this.newGameButton);
             this.Controls.Add(this.computerKeep1);
             this.Controls.Add(this.computerKeep2);
@@ -966,6 +1037,7 @@
             this.Controls.Add(this.keep4);
             this.Controls.Add(this.keep0);
             this.Controls.Add(this.scoreCardPanel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "yahtzeeForm";
             this.Text = "Let\'s Play Yahtzee";
             this.Load += new System.EventHandler(this.Form1_Load);
